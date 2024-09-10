@@ -23,9 +23,9 @@ public class EstruturaIfElseRefatorado {
     // metodo que contém a lógia para retorar a mensagem apropridada
     public static String getMensagemPorHora(int hora) {
         if (hora >= 1 && hora <= 11) {
-            return "Good morning !!";
+            return "Good Morning!!";
         } else if (hora > 11 && hora <= 17) {
-            return "Afternoon!";
+            return "Good afternoon!";
         } else {
             return "Good evening";
         }
