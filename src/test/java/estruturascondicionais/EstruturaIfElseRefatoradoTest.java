@@ -2,9 +2,11 @@ package estruturascondicionais;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class EstruturaIfElseRefatoradoTest {
+
+
     @Test
     void testHoraEntre1e11() {
         assertEquals("Good morning !!", EstruturaIfElseRefatorado.getMensagemPorHora(5));

@@ -24,4 +24,5 @@ public class EstruturaIfElse {
         }
         scan.close();
     }
+
 }
