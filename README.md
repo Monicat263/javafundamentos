@@ -1,0 +1,14 @@
+Projeto criado para aprofundar conhecimento referente aos fundammentos de da linguagem JAVA
+- Conceitos da linguagem
+- Conceitos de variáveis
+- Estrutura sequencial
+- Estrutura condicional
+- Estrutura de repetição
+- Teste unitários
+- POO (Programação orientada a objeto)
+- Construtores
+- Heranaça e Polimorfismo
+- Exceptions
+- Generics, Maps e set
+- Banco de dados
+- Projeto spring boot
