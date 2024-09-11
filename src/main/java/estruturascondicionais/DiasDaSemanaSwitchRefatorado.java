@@ -20,13 +20,13 @@ public class DiasDaSemanaSwitchRefatorado {
         public String getDiaDaSemana(int numDigitado) {
             switch (numDigitado) {
                 case 1:
-                    return "domingo";
+                    return "Domingo";
                 case 2:
                     return "Segunda";
                 case 3:
                     return "Terça";
                 case 4:
-                    return " Quarta";
+                    return "Quarta";
                 case 5:
                     return "Quinta";
                 case 6:
