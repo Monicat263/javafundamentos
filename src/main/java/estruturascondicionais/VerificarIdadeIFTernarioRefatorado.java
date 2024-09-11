@@ -13,11 +13,11 @@ public class VerificarIdadeIFTernarioRefatorado {
 
         System.out.println("Digite sua idade: ");
         int idadeDigitada = scan.nextInt();
-        System.out.println("Você é: " + verificaIdade(idadeDigitada));
+        System.out.println("Você é: " + getverificaIdade(idadeDigitada));
 
         scan.close();
     }
-    public static String verificaIdade(int idadeDigitada){
+    public static String getverificaIdade(int idadeDigitada){
         return (idadeDigitada < 0) ? "Idade inválida" :
                (idadeDigitada < 18 ) ? "Menor de idade" : "Maior de idade";
 
