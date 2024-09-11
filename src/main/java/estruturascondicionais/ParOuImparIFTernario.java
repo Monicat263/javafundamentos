@@ -1,7 +1,7 @@
 /*
  Descrição: Crie um programa que leia um número inteiro e determine se ele é par ou ímpar,
  usando o operador ternário para exibir o resultado.
- 
+
  */
 package estruturascondicionais;
 
@@ -17,5 +17,7 @@ public class ParOuImparIFTernario {
 
         String resultado = (num % 2 ==0 ) ? "Par" : "Impar";
         System.out.println("O número é: " + resultado);
+
+        scan.close();
     }
 }
