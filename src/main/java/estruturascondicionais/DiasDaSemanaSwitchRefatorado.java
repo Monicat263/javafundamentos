@@ -20,19 +20,19 @@ public class DiasDaSemanaSwitchRefatorado {
         public String getDiaDaSemana(int numDigitado) {
             switch (numDigitado) {
                 case 1:
-                    return "Dia da semana: domingo";
+                    return "domingo";
                 case 2:
-                    return "Dia da semana: Segunda";
+                    return "Segunda";
                 case 3:
-                    return "Dia da semana: Terça";
+                    return "Terça";
                 case 4:
-                    return "Dia da semana: Quarta";
+                    return " Quarta";
                 case 5:
-                    return "Dia da semana: Quinta";
+                    return "Quinta";
                 case 6:
-                    return "Dia da semana: Sexta";
+                    return "Sexta";
                 case 7:
-                    return "Dia da semana: Sábado";
+                    return "Sábado";
                 default:
                     return "Número inválido";
             }
