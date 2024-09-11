@@ -1,4 +1,4 @@
-/*  ]
+/*
     Faça um programa que receba um valor e analise qual o desconto será concedido
     Considerando:
         - Se preco é menor que 20.00 então o desconto será de: 0.1
@@ -12,6 +12,5 @@ public class DescontoComIFTernario {
         double preco = 34.50;
         double descconto = (preco < 20) ? preco * 0.1 : preco * 0.05;
         System.out.println(descconto);
-
     }
 }
