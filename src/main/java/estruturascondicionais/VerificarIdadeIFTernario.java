@@ -15,7 +15,7 @@ public class VerificarIdadeIFTernario {
         int idadeDigitada = scan.nextInt();
 
         String analiseIdade = (idadeDigitada < 18 ) ? "Menor de idade" : "Maior de idade";
-        System.out.println(analiseIdade);
+        System.out.println("Você é: " +analiseIdade);
 
         scan.close();
     }
