@@ -7,7 +7,6 @@ o segundo valor tem peso 3 e o terceiro valor tem peso 5.
 
 package estruturadecontrolefor;
 
-import java.sql.SQLOutput;
 import java.util.Locale;
 import java.util.Scanner;
 
